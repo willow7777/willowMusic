@@ -1,0 +1,13 @@
+<!--pages/home-video/index.wxml-->
+<view class="videoTotal" > 
+  <!-- <view class="nav"> 推荐视频</view> -->
+  <!--  <scroll-view scroll-y="true"  enable-flex="true" class="video" style="height:1300rpx" bindscroll='handleScroll'> -->
+  <view class="video" style="height:1300rpx"> 
+  <view class="item" wx:for="{{topMVs}}" wx:key="id" style="height:300rpx">
+    <video-item-v1 item="{{item}}" 
+                   bindtap="handleVideoItemClick"
+                   data-item="{{item}}">
+    </video-item-v1> 
+  </view>
+</view>
+</view>

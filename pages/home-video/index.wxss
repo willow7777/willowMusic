@@ -1,0 +1,20 @@
+/* pages/home-video/index.wxss */
+.nav{
+  height: 100rpx;
+  font-size: large;
+    position: sticky;
+    top:0;
+    background:#fff;
+    z-index:9999;
+    line-height: 100rpx;
+}
+.video {  
+  margin-top: 30rpx;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 48%;
+}
